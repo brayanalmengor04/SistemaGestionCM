@@ -22,24 +22,24 @@ El repositorio está organizado en los siguientes paquetes:
 A continuación se presentan imágenes representativas de cada sección del sistema:
 
 - **com.creaccionesmagicas.controllers**:
-  [Carpeta repositorio de controladores](/src/com/creaccionesmagicas/controllers)
+  [Carpeta repositorio de controladores](/src/com/creaccionesmagicas/controllers/)
   ![Controladores](/readmeimg/controller.PNG)
 
 
 - **com.creaccionesmagicas.dominio**:
-  [Repositorio de las clases/objetos del dominio](/src/com/creaccionesmagicas/dominio)
+  [Repositorio de las clases/objetos del dominio](/src/com/creaccionesmagicas/dominio/)
   ![Dominio](/readmeimg/dominioNegocio.PNG)
 
 - **com.creaccionesmagicas.negocio**:
-  [Repositorio de la lógica y funcionalidades](/src/com/creaccionesmagicas/negocio)
+  [Repositorio de la lógica y funcionalidades](/src/com/creaccionesmagicas/negocio/)
    ![Dominio](/readmeimg/dominioNegocio.PNG)
 
 - **com.creaccionesmagicas.views**:
-  [Repositorio de archivos FXML o vistas](/src/com/creaccionesmagicas/views)
+  [Repositorio de archivos FXML o vistas](/src/com/creaccionesmagicas/views/)
   ![views](/readmeimg/views.PNG)
 
 - **com.creaccionesmagicas.resources**:
-  [Repositorio de recursos: imágenes y estilos CSS](/src/com/creaccionesmagicas/resources)
+  [Repositorio de recursos: imágenes y estilos CSS](/src/com/creaccionesmagicas/resources/)
   ![Resources](/readmeimg/resources.PNG)
   
 ### Explicación Adicional
