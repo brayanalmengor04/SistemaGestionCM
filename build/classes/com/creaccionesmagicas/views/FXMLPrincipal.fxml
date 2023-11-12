@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.creaccionesmagicas.controllers.FXMLPrincipalController">
+   <children>
+      <VBox fx:id="sliderMenu" prefHeight="622.0" prefWidth="61.0" style="-fx-background-color: #2D223B;" styleClass="sliderMenu">
+         <children>
+            <HBox alignment="CENTER" prefHeight="59.0" prefWidth="59.0">
+               <children>
+                  <Button maxWidth="-Infinity" mnemonicParsing="false" onAction="#eventMenuInicio" prefHeight="64.0" prefWidth="115.0" styleClass="container__principal__sliderMenuBtn" stylesheets="@../resources/fxmlprincipal.css" text="HOME" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/home.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="SansSerif Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="59.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#eventMenuUsuario" prefHeight="59.0" prefWidth="115.0" styleClass="container__principal__sliderMenuBtn" stylesheets="@../resources/fxmlprincipal.css" text="USUARIO" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/avatar.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="SansSerif Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="59.0" prefWidth="61.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#eventMenuTienda" prefHeight="59.0" styleClass="container__principal__sliderMenuBtn" stylesheets="@../resources/fxmlprincipal.css" text="TIENDA PRODUCTO" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/store.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="SansSerif Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="59.0" prefWidth="61.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#eventMenuFactura" prefHeight="59.0" prefWidth="115.0" styleClass="container__principal__sliderMenuBtn" stylesheets="@../resources/fxmlprincipal.css" text="FACTURA" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/factura.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="59.0" prefWidth="61.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#eventMenuResenia" prefHeight="59.0" prefWidth="115.0" styleClass="container__principal__sliderMenuBtn" stylesheets="@../resources/fxmlprincipal.css" text="Reseña" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/gmail.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="SansSerif Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox fx:id="contenedor__change" layoutX="88.0" prefHeight="622.0" prefWidth="912.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label>
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/logotipoCreacciones.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Button mnemonicParsing="false" onAction="#eventSalir" style="-fx-background-color: transparent;" text="X" textFill="#441765">
+                     <font>
+                        <Font name="SansSerif Bold" size="20.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="637.0" />
+                     </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="515.0" prefWidth="884.0">
+               <children>
+                  <Label contentDisplay="RIGHT" graphicTextGap="0.0" wrapText="true">
+                     <graphic>
+                        <ImageView fitHeight="534.0" fitWidth="718.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/principalBackground.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="SansSerif Bold" size="28.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

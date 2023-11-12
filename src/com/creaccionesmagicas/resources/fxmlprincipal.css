@@ -1,0 +1,11 @@
+
+.container__principal__sliderMenuBtn{
+    -fx-cursor:hand;
+    -fx-background-color:transparent; 
+    
+}
+.container__principal__sliderMenuBtn:hover{
+    -fx-background-color:rgba(0,0,0,0.5);  
+    
+} 
+
