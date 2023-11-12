@@ -22,19 +22,19 @@ El repositorio está organizado en los siguientes paquetes:
 A continuación se presentan imágenes representativas de cada sección del sistema:
 
 - **com.creaccionesmagicas.controllers**:
-  [Imagen representativa de controladores](enlace-a-la-imagen-controladores)
+  [Imagen representativa de controladores](/readmeimg/controller.PNG)
 
 - **com.creaccionesmagicas.dominio**:
-  [Imagen representativa de las clases/objetos del dominio](enlace-a-la-imagen-dominio)
+  [Imagen representativa de las clases/objetos del dominio](/readmeimg/dominioNegocio.PNG)
 
 - **com.creaccionesmagicas.negocio**:
-  [Imagen representativa de la lógica y funcionalidades](enlace-a-la-imagen-negocio)
+  [Imagen representativa de la lógica y funcionalidades](/readmeimg/dominioNegocio.PNG)
 
 - **com.creaccionesmagicas.views**:
-  [Imagen representativa de archivos FXML o vistas](enlace-a-la-imagen-views)
+  [Imagen representativa de archivos FXML o vistas](/readmeimg/views.PNG)
 
 - **com.creaccionesmagicas.resources**:
-  [Imagen representativa de recursos: imágenes y estilos CSS](enlace-a-la-imagen-resources)
+  [Imagen representativa de recursos: imágenes y estilos CSS](/readmeimg/resources.PNG)
 
 ### Explicación Adicional
 
