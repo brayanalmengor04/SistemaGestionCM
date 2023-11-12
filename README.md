@@ -8,13 +8,13 @@ Este repositorio contiene un sistema que proporciona una solución accesible y s
 En tiempo de ejecución, el programa sigue el siguiente flujo:
 
 1. **Login**: El login proporciona seguridad para el sistema.
-   ![Login](enlace-a-la-imagen-login)
+   ![Login](/readmeimg/login.PNG)
 
 2. **Crear Cuenta**: Permite a los usuarios crear cuentas en el sistema.
-   ![Crear Cuenta](enlace-a-la-imagen-crear-cuenta)
+   ![Crear Cuenta](/readmeimg/crearCuenta.PNG)
 
 3. **Pantalla Principal**: Interfaz principal que facilita la navegación por el sistema.
-   ![Pantalla Principal](enlace-a-la-imagen-pantalla-principal)
+   ![Pantalla Principal](/readmeimg/paginaPrincipal.PNG)
 
 El programa ofrece las siguientes funcionalidades:
 
