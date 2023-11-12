@@ -1,7 +1,30 @@
 
 # Sistema de Sincronización de Base de Datos para CreaccionesMagicas
 
-Este repositorio contiene un sistema que proporciona una solución accesible y sencilla para la sincronización con la base de datos en el negocio CreaccionesMagicas.
+Este repositorio contiene un sistema que proporciona una solución accesible y sencilla para la sincronización con la base de datos en el negocio CreaccionesMagicas. 
+
+## Flujo de Ejecución
+
+En tiempo de ejecución, el programa sigue el siguiente flujo:
+
+1. **Login**: El login proporciona seguridad para el sistema.
+   ![Login](enlace-a-la-imagen-login)
+
+2. **Crear Cuenta**: Permite a los usuarios crear cuentas en el sistema.
+   ![Crear Cuenta](enlace-a-la-imagen-crear-cuenta)
+
+3. **Pantalla Principal**: Interfaz principal que facilita la navegación por el sistema.
+   ![Pantalla Principal](enlace-a-la-imagen-pantalla-principal)
+
+El programa ofrece las siguientes funcionalidades:
+
+- Gestión de productos y servicios.
+- Gestión de reseñas.
+- Generación de facturaciones.
+
+---
+
+
 
 ## Estructura del Proyecto
 
