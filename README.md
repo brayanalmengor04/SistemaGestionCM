@@ -22,20 +22,26 @@ El repositorio está organizado en los siguientes paquetes:
 A continuación se presentan imágenes representativas de cada sección del sistema:
 
 - **com.creaccionesmagicas.controllers**:
-  [Imagen representativa de controladores](/readmeimg/controller.PNG)
+  [Carpeta repositorio de controladores](/src/com/creaccionesmagicas/controllers)
+  ![Controladores](/readmeimg/controller.PNG)
+
 
 - **com.creaccionesmagicas.dominio**:
-  [Imagen representativa de las clases/objetos del dominio](/readmeimg/dominioNegocio.PNG)
+  [Repositorio de las clases/objetos del dominio](/src/com/creaccionesmagicas/dominio)
+  ![Dominio](/readmeimg/dominioNegocio.PNG)
 
 - **com.creaccionesmagicas.negocio**:
-  [Imagen representativa de la lógica y funcionalidades](/readmeimg/dominioNegocio.PNG)
+  [Repositorio de la lógica y funcionalidades](/src/com/creaccionesmagicas/negocio)
+   ![Dominio](/readmeimg/dominioNegocio.PNG)
 
 - **com.creaccionesmagicas.views**:
-  [Imagen representativa de archivos FXML o vistas](/readmeimg/views.PNG)
+  [Repositorio de archivos FXML o vistas](/src/com/creaccionesmagicas/views)
+  ![views](/readmeimg/views.PNG)
 
 - **com.creaccionesmagicas.resources**:
-  [Imagen representativa de recursos: imágenes y estilos CSS](/readmeimg/resources.PNG)
-
+  [Repositorio de recursos: imágenes y estilos CSS](/src/com/creaccionesmagicas/resources)
+  ![Resources](/readmeimg/resources.PNG)
+  
 ### Explicación Adicional
 
 El sistema se estructura de manera que los controladores se encargan de las funciones de cada nodo ventana, el paquete de dominio contiene las clases u objetos utilizados en el sistema, el paquete de negocio incorpora la lógica que afecta a las clases de dominio y las tablas de la base de datos, las vistas se almacenan en el paquete de vistas (archivos FXML), y finalmente, el paquete de recursos organiza las imágenes y los estilos CSS para mejorar la apariencia del programa.
